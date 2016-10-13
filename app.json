@@ -1,0 +1,6 @@
+{
+  "name": "Personal Website",
+  "description": "An attempt to learn basic webdev",
+  "repository": "https://github.com/r48patel/rpatel.me",
+  "keywords": ["node", "express", "static", "personal"],
+}
