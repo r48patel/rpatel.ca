@@ -10,7 +10,12 @@ app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
 app.get('/', function(request, response) {
-  response.render('pages/index');
+	var title="Ravi Patel"
+	var sub_title="A Canadian living in Austin, Texas."
+  response.render('pages/index', {
+  	title: title,
+  	sub_title:sub_title
+  });
 });
 
 app.listen(app.get('port'), function() {
