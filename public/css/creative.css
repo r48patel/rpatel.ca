@@ -59,6 +59,10 @@ p {
   background-color: #222222;
   color: white;
 }
+.bg-orange {
+  background-color: #F05F40;
+  color: white;
+}
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }
@@ -243,7 +247,7 @@ header .header-content .header-content-inner p {
   color: white;
   opacity: 0;
   display: block;
-  background: rgba(240, 95, 64, 0.9);
+  background: rgba(202, 240, 64, 0.7);
   position: absolute;
   bottom: 0;
   text-align: center;
@@ -294,8 +298,8 @@ header .header-content .header-content-inner p {
   color: #F05F40;
 }
 .no-gutter > [class*='col-'] {
-  padding-right: 0;
-  padding-left: 0;
+  padding-right: 1.5px;
+  padding-left: 1.5px;
   padding-top: 3px;
   padding-bottom: 3px;
 }
