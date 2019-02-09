@@ -1,9 +1,10 @@
 {
-  "name": "rpatel.me",
+  "name": "rpatel.ca",
   "version": "0.0.1",
   "description": "Personal Website",
   "engines": {
-    "node": "5.9.1"
+    "node": "8.1.3",
+    "npm": "6.7.0"
   },
   "main": "index.js",
   "scripts": {
